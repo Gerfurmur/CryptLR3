@@ -1,0 +1,17 @@
+Task 2.5
+Check my CBC AES compare to original AES CBC:
+----------------------------------------------------
+Our message: Here we check CBC mode for AES encryption!
+Key: b6060f82726ffad9f5fe5c8eafc58788
+Initial vector: 684d0c37e166aad5e2947f0d359994e7
+----------------------------------------------------
+My CBC encryption result without initial vector: 0423ef0fb9120e533a48dc2125c922506adc04819171063cf7e131b21b06f80f322327a7ffa5119402b2f64fa25b6ba9
+Encrypted text number blocks = 3.0
+My CBC decryption result: Here we check CBC mode for AES encryption!
+----------------------------------------------------
+
+----------------------------------------------------
+Original CBC encryption result: 0423ef0fb9120e533a48dc2125c922506adc04819171063cf7e131b21b06f80f322327a7ffa5119402b2f64fa25b6ba9
+Encrypted text number blocks = 3.0
+Original CBC decryption result: Here we check CBC mode for AES encryption!
+----------------------------------------------------

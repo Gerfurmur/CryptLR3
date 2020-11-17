@@ -1,0 +1,47 @@
+
+Task 4
+----------------------------------------------------
+Checking ECB encryption:
+----------------------------------------------------
+Our message: Here we use ECB mode for AES encryption!
+Key: 608bf992a7607a6d39a1995fa57e1919
+ECB encryption result: 337f7d33513e10c95859943824c7a0f68088dc3ac20b3e335f2a78dc1ba003071df52f8e76e8363c4d241f09b264b3ee
+Encrypted text number blocks = 3.0
+ECB decryption result: Here we use ECB mode for AES encryption!
+----------------------------------------------------
+
+Checking CBC encryption:
+----------------------------------------------------
+Our message: Here we use CBC mode for AES encryption!
+Key: 3b36aaceb89941e7b0bce65ecb23a22b
+CBC encryption result with initial vector: 05d6f48901ea0780a57ec91b7389cc69bf5728e00527e4eab068694561dd1bccb324a12fc6da3872eb9c98ebb705bfebfbe5ee85be392e5c1c557362467323da
+Encrypted text number blocks = 3.0
+CBC decryption result: Here we use CBC mode for AES encryption!
+----------------------------------------------------
+
+Checking CFB encryption:
+----------------------------------------------------
+Our message: Here we use CFB mode for AES encryption!
+Key: d4bc1eb5a603ffe152dc03bcd6f5d6cf
+CFB encryption result with initial vector: 8af67a3b41553dd8fa4f93c15f8efe59c6f46e0e9e4295e47a1390469b9f82ffc315cd38ab0b0621e5c4ab0f618dd7d8047dc69a10aa73ac
+Encrypted text number blocks = 2.5
+CFB decryption result: Here we use CFB mode for AES encryption!
+----------------------------------------------------
+
+Checking OFB encryption:
+----------------------------------------------------
+Our message: Here we use OFB mode for AES encryption!
+Key: 9d2d7013aa0bd272a45227aa29e83a15
+OFB encryption result with initial vector: f63f553930f929d987450935ceac0c2cbd9c65a745a9b5c9b8c1022a4d499a00b2d9af3502fae6126cfe0a713cbe829bc36aa2a0905d04b3
+Encrypted text number blocks = 2.5
+OFB decryption result: Here we use OFB mode for AES encryption!
+----------------------------------------------------
+
+Checking CTR encryption:
+----------------------------------------------------
+Our message: Here we use CTR mode for AES encryption!
+Key: fa5008121efb87ccfed0d002696e2d34
+CTR encryption result with initial vector: f5837e203ec611c5660665731cbb40f2e7f0769d037353f74a39e8f4837f87fb9ec2b3c93befaa06798705b723cef70d1dd92e0d08b2417d
+Encrypted text number blocks = 2.5
+CTR decryption result: Here we use CTR mode for AES encryption!
+----------------------------------------------------
